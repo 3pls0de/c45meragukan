@@ -4,7 +4,7 @@ require_once 'fungsi.php';
 
 function getDistinct($atribut)
 {
-  $conn = new mysqli("localhost", "root", "", "DM_c45");
+  global $conn;
   $query = "SELECT DISTINCT $atribut FROM dtraining";
   $dump = mysqli_query($conn, $query);
   foreach ($dump as $k => $v) {
@@ -14,7 +14,7 @@ function getDistinct($atribut)
 }
 function getData($where = '')
 {
-  $conn = new mysqli("localhost", "root", "", "DM_c45");
+  global $conn;
 
   $query = "SELECT * FROM dtraining $where";
   // var_dump($query);

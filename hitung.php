@@ -137,7 +137,8 @@ $cWindy = "label";
 
 if ($max) {
   $varName = getVariavleName($max);
-  $varName = "c" . substr("GainOutlook", 4);
+  $label = substr($varName, 4);
+  $varName = "c" . substr($varName, 4);
   $$varName = "colored";
 }
 ?>
@@ -180,6 +181,9 @@ if ($max) {
 
 <body>
   <a href="http://localhost/dm/C45/">Index</a>
+  <br>
+  <br>
+  Nilai Gain Tertinggi dimiliki oleh atribut <span><?= $label; ?></span> dengan nilai: <span><?= $max; ?></span>
   <table>
     <tr>
       <th>Atribut</th>

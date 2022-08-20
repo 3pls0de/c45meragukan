@@ -5,3 +5,6 @@ kekurangan:
 - script tidak efisien
 - cuma dapat mendapatkan root
 - jika ingin menguji data baru maka harus mengubah script
+
+kelebihan:
+- anggap saja tidak memiliki kelebihan

@@ -3,7 +3,7 @@ hanya untuk mendapatkan root node c45
 
 kekurangan:
 - script tidak efisien
-- cuma dapat mendapatkan root
+- cuma dapat mendapatkan root node
 - jika ingin menguji data baru maka harus mengubah script
 
 kelebihan:
